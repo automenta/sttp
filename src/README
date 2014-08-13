@@ -1,0 +1,25 @@
+This is the working directory. You can work any way you like here.
+But it is easier if you can follow the examples and the template
+that you can find in `../example/`.
+
+If you start from scratch, you can create a markdown file
+containing:
+
+
+# Abstract
+
+## Keywords
+
+# Problem / Opportunity
+
+# Detailed Description
+
+### Component 1
+
+### Component 2
+
+### Component 3
+
+## Steps to implement
+
+# References
