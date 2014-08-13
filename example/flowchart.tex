@@ -1,0 +1,20 @@
+
+% Define block styles
+    \tikzstyle{block} = [rectangle, draw, 
+        text width=20em, text centered, minimum height=2em]
+    \tikzstyle{decision} = [diamond, draw, fill=red!20, 
+        text width=15em, text badly centered, minimum height=2em]
+    \tikzstyle{line} = [draw, -latex']
+
+    
+\sffamily 
+\begin{tikzpicture}[node distance = 2.2cm, auto]
+    % Place nodes
+    \node [block] (block1) {This is the first step of the flowchart in a block};
+    \node [block, below of=block1] (block2) {This is the second step, underneath the first block with an arrow};
+    \node [block, below of=block2] (block3) {This is another second step, placed undearneath the second block with an arrow from the first block too};
+
+    % Draw edges
+    \path [line] (block1) -- (block2); % This is a straight arrow
+    \path [line] (block1) to[out=0,in=0] (block3); % This is a bent arrow
+\end{tikzpicture}

@@ -1,0 +1,61 @@
+
+% This is a template page for listing figures
+
+% You can also use pandoc's markdown support for figures and captions (see
+% http://www.johnmacfarlane.net/pandoc/README.html#pictures-with-captions).  In
+% this case, you don’t need this file. 
+%
+% But if your defpub includes more complex figures like flowcharts and
+% diagrams, we encourage you to use this file.
+
+\newpage
+
+% Example figure made from svg→eps (encapsulated postscript). But this can also
+% work with a simple png image file, however please try to use scalable image
+% formats.
+
+\vfill
+% This helps filling the page for centering the figure vertically on the page
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.95\textwidth]{src/figure.eps}
+    \caption{Caption for the figure}
+    \label{fig:figure}
+    % You can later refer to this figure in the body of your defpub. See
+    % https://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing
+\end{figure}
+
+\vfill
+
+% Example of two figures next to each other
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{src/left-figure.eps}
+        \caption{Caption for the left figure}\label{fig:left-figure}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{src/right-figure.eps}
+        \caption{Caption for the right figure}\label{fig:right-figure}
+    \end{subfigure}
+
+    \caption{Caption for the two figures}
+    \label{fig:two-figures}
+\end{figure}
+
+\vfill
+
+% Example of flowchart made from TeX, usually with TikZ (see
+% http://www.texample.net/tikz/)
+
+\begin{figure}[h!]
+    \centering
+    \input{src/flowchart.tex}
+    \caption{Caption for the flowchart}
+    \label{fig:flowchart}
+\end{figure}
+
+\vfill
