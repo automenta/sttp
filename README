@@ -1,0 +1,61 @@
+                     Defpub TITLE
+
+A defensive publication about FEATURE/PROJECT: DESCRIPTION (2-3
+lines)
+
+
+
+More info:
+
+ - about the PROJECT: 
+ - about Defensive Publications: http://linuxdefenders.org/
+ - IRC: irc.freenode.net #linuxdefenders
+
+
+Get Started
+===========
+
+To write your defensive publication, have a look in the `example/`
+directory for other defensive publications example and for the
+template documents.
+
+
+Build instructions
+==================
+
+Dependency: LaTeX with XeTeX support
+
+Before running
+    
+    xelatex defpub-title.tex
+
+You need to convert some of the source files to input that can be
+handled by LaTeX. More precisely you need to:
+
+  - convert src/source-file.md in a .tex input file
+    src/source-file.md.tex
+    
+    this can be done easily with
+
+        pandoc src/source-files.md -o src/source-files.md.tex --variable lang=english
+    
+  - convert svg files to encapsulated postscript files (.eps)
+    (this can be done with inkscape)
+
+
+
+Todo list
+=========
+ 
+ - make a script to set up variables such as
+    - TITLE
+    - PROJECT
+    - FEATURE (optional)
+    - DESCRIPTION
+    - source-file
+
+ - make a script to build
+    - markdown to tex files (if any)
+    - svg to eps
+    - master latex file
+
