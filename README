@@ -1,13 +1,16 @@
+
                      Defpub TITLE
 
 A defensive publication about FEATURE/PROJECT: DESCRIPTION (2-3
 lines)
 
+Tags: TAGS
 
+* * * * * * * * * * * * * * * * *
 
 More info:
 
- - about the PROJECT: 
+ - about the PROJECT: URL
  - about Defensive Publications: http://linuxdefenders.org/
  - IRC: irc.freenode.net #linuxdefenders
 
@@ -29,7 +32,7 @@ Before running
     
     xelatex defpub-title.tex
 
-You need to convert some of the source files to input that can be
+You need to convert your content source files to input that can be
 handled by LaTeX. More precisely you need to:
 
   - convert src/source-file.md in a .tex input file
@@ -50,8 +53,10 @@ Todo list
  - make a script to set up variables such as
     - TITLE
     - PROJECT
+    - URL
     - FEATURE (optional)
     - DESCRIPTION
+    - TAGS
     - source-file
 
  - make a script to build
