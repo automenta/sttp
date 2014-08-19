@@ -1,6 +1,3 @@
-% This is a YAML file, see http://yaml.org -- for more information on how to
-% add a bibliography with pandoc, see
-% http://johnmacfarlane.net/pandoc/README.html#citations
 ---
 references:
 - id: fenner2012a
