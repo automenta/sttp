@@ -82,5 +82,3 @@ Todo list
     - svg to eps
     - master latex file
 
- - fix how pandoc generate the Keywords/Tags list from YAML to
-   LaTeX (tags shuold be an array, right now it’s only a string)
