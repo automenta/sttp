@@ -1,0 +1,14 @@
+% This is a YAML file to define the metadata of the defensive publication --
+% for more information about that, see
+% http://johnmacfarlane.net/pandoc/README.html#extension-yaml_metadata_block
+---
+title:  'Template: Defensive Publication'
+author: Linux Defenders
+tags: [defensive publications, defpubs, patents]
+abstract: |
+  Defensive publications help patent office examiners understand the **prior
+  art**, i.e. the state of the art in the technical field of a patent
+  application. This template aims at helping you write defensive publications
+  that will be useful to patent examiners, in order to review patent
+  applications harmful to software developers. 
+...

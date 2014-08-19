@@ -1,33 +1,3 @@
----
-title:  'Template: Defensive Publication'
-author: Linux Defenders
-tags: [defensive publications, defpubs, patents]
-abstract: |
-  Defensive publications help patent office examiners understand the **prior
-  art**, i.e. the state of the art in the technical field of a patent
-  application. This template aims at helping you write defensive publications
-  that will be useful to patent examiners, in order to review patent
-  applications harmful to software developers. 
-
-references:
-- id: fenner2012a
-  title: One-click science marketing
-  author:
-  - family: Fenner
-    given: Martin
-  container-title: Nature Materials
-  volume: 11
-  URL: 'http://dx.doi.org/10.1038/nmat3283'
-  DOI: 10.1038/nmat3283
-  issue: 4
-  publisher: Nature Publishing Group
-  page: 261-263
-  type: article-journal
-  issued:
-    year: 2012
-    month: 3
-...
-
 
 Your defensive publication should give an overview of the
 technical problem and the existing solutions if any, before
@@ -151,8 +121,6 @@ bibliography: see http://johnmacfarlane.net/pandoc/README.html#citations-->
 
 This can be a flow chart, a network diagram, etc.
 
-
-
 \newpage
 
 ![Example 1: System Diagram](example1.png)
@@ -160,4 +128,3 @@ This can be a flow chart, a network diagram, etc.
 \newpage
 
 ![Example 2: System Diagram](example2.png)
-

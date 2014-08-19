@@ -2,24 +2,16 @@ This is the working directory. You can work any way you like here.
 But it is easier if you can follow the examples and the template
 that you can find in `../example/`.
 
-If you start from scratch, you can create a markdown file
-containing:
+File name conventions: 
 
+ - do not use dots to separate words in the file names or you need
+   to modify the `.gitignore` rules first.
 
-# Abstract
+ - when you use pandoc please refer to the full name of the input
+   file in the name of the output file, for example:
 
-## Keywords
+        pandoc src/input-file.md -o src/input-file.md.tex
 
-# Problem / Opportunity
-
-# Detailed Description
-
-### Component 1
-
-### Component 2
-
-### Component 3
-
-## Steps to implement
-
-# References
+Also, before building the PDF, remember to convert svg files to
+encapsulated postscript files (.eps) (this can be done with
+inkscape).
