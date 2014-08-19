@@ -14,11 +14,17 @@ publication, such as:
 
     abstract.yaml
 
-This file contains an abstract and keywords.
+This file contains an abstract and keywords. More information on
+how to use it with pandoc, see
+http://johnmacfarlane.net/pandoc/README.html#extension-yaml_metadata_block
+
 
 Metadata can also be used for bibliography, see an example at:
 
     references.yaml
+
+For more information to use the bibliography, see
+http://johnmacfarlane.net/pandoc/README.html#citations
 
 # Figures
 
@@ -47,11 +53,6 @@ found at:
 
     flowchart.fig
 
-Xfig figures need to be converted for LaTeX. You should install
-the transfig program. The [fig2eps] script can also be useful to
-generate encapsulated postscript (.eps) easily.
-
-[fig2eps]: https://sites.google.com/a/courville.org/courville/home/fig2eps
 
 ## Scalable figures
 
