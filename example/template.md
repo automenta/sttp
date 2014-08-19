@@ -124,10 +124,3 @@ bibliography: see http://johnmacfarlane.net/pandoc/README.html#citations-->
 
 This can be a flow chart, a network diagram, etc.
 
-\newpage
-
-![Example 1: System Diagram](example1.png)
-
-\newpage
-
-![Example 2: System Diagram](example2.png)
