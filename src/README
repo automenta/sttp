@@ -2,7 +2,17 @@ This is the working directory. You can work any way you like here.
 But it is easier if you can follow the examples and the template
 that you can find in `../example/`.
 
-File name conventions: 
+# Metadata
+
+It is useful to add metadata files, for instance using YAML
+(http://yaml.org), see
+http://johnmacfarlane.net/pandoc/README.html#extension-yaml_metadata_block
+
+For more information about the bibliography, see
+http://johnmacfarlane.net/pandoc/README.html#citations or the
+`../example/references.yaml` file.
+
+# File name conventions
 
  - do not use dots to separate words in the file names or you need
    to modify the `.gitignore` rules first.
@@ -12,6 +22,10 @@ File name conventions:
 
         pandoc src/input-file.md -o src/input-file.md.tex
 
-Also, before building the PDF, remember to convert svg files to
+# Convert figures to .eps
+
+Before building the PDF, remember to convert svg files to
 encapsulated postscript files (.eps) (this can be done with
 inkscape).
+
+
