@@ -18,9 +18,10 @@ More info:
 Get Started
 ===========
 
-To write your defensive publication, have a look in the `example/`
-directory for other defensive publications example and for the
-template documents.
+To start with your defensive publication, have a look in the
+`example/` directory for other defensive publications example and
+for the template documents. Then, go write in the `src/`
+directory.
 
 
 Build instructions
