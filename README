@@ -11,7 +11,8 @@ Tags: TAGS
 More info:
 
  - about the PROJECT: URL
- - about Defensive Publications: http://linuxdefenders.org/
+ - about Defensive Publications:
+   <http://defensivepublications.org/>
  - IRC: irc.freenode.net #linuxdefenders
 
 
@@ -22,6 +23,10 @@ To start with your defensive publication, have a look in the
 `example/` directory for other defensive publications example and
 for the template documents. Then, go write in the `src/`
 directory.
+
+You can find examples of defensive publications along with
+guidelines at:
+<http://www.defensivepublications.org/defensive-pubs-examples>
 
 
 Build instructions
