@@ -57,3 +57,18 @@ TODO
 
 Inkscape tempaltes other Xfig templates?
 
+## Convert figures to .eps
+
+Before building the PDF, remember to convert figures to
+encapsulated postscript files (.eps) so that LaTeX can make use of
+them.
+
+Xfig figures need to be converted for LaTeX. You should install
+the transfig program. The [fig2eps] script can also be useful to
+generate encapsulated postscript (.eps) easily.
+
+[fig2eps]: https://sites.google.com/a/courville.org/courville/home/fig2eps
+
+For SVG, inkscape can export to EPS.
+
+
