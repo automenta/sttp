@@ -1,30 +1,27 @@
 # General Template
 
-The file template.pdf should be a good starting point to see what
-parts a defensive publication needs. You can see the source for
-template.pdf in:
-
- -  template.md
- -  footer.md
+The README should be a good starting point to see what
+parts a defensive publication needs.
 
 # Metadata
 
 You can create a separate file for metadata of the defensive
-publication, such as:
+publication, like:
 
-    abstract.yaml
+    ../example/abstract.yaml
 
 This file contains an abstract and keywords. More information on
 how to use it with pandoc, see
-http://johnmacfarlane.net/pandoc/README.html#extension-yaml_metadata_block
+<http://johnmacfarlane.net/pandoc/README.html#extension-yaml_metadata_block>
 
 
-Metadata can also be used for bibliography, see an example at:
+Metadata can also be used for bibliography using pandoc's
+citeproc, see an example at:
 
-    references.yaml
+    ../example/references.yaml
 
 For more information to use the bibliography, see
-http://johnmacfarlane.net/pandoc/README.html#citations
+<http://johnmacfarlane.net/pandoc/README.html#citations>
 
 # Figures
 
@@ -32,7 +29,7 @@ You can include figures directly in the body of the defensive
 publication, but you can also group them together at the end in
 a single latex file such as
 
-    figures.tex
+    ../example/figures.tex
 
 ## Flowcharts
 
@@ -41,9 +38,9 @@ a single latex file such as
 The TikZ package can be used to create flowcharts. An example can
 be found at:
 
-    flowchart.tex
+    ../example/flowchart.tex
 
-More resources for TikZ on http://www.texample.net/tikz/
+More resources for TikZ on <http://www.texample.net/tikz/>
 
 
 ### Using Xfig
@@ -51,7 +48,7 @@ More resources for TikZ on http://www.texample.net/tikz/
 Xfig can also be used to create flowcharts. An example can be
 found at:
 
-    flowchart.fig
+    ../example/flowchart.fig
 
 
 ## Scalable figures

@@ -40,9 +40,10 @@ can be found about that in the `src/README`.
 
 To build the PDF
 
-1. Translate the defensive publication source files to LaTeX
+1. Translate the defensive publication source files to LaTeX, for
+   example:
 
-    pandoc src/source-files-in-logical-order.md -o defpub-title.tex --template src/template.tex --standalone
+    pandoc src/intro.md src/main.md src/appendix.md -o defpubTitle.tex --template src/template.tex --standalone
 
 You can also define variables and more options of the `pandoc`
 command above. 
@@ -62,7 +63,7 @@ to include in the `pandoc` command:
 
 2. Process the file to PDF
 
-    xelatex defpub-title.tex
+    xelatex defpubTitle.tex
 
 
 Todo list

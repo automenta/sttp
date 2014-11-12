@@ -1,6 +1,8 @@
-% Template: Defensive Publication'
-% Linux Defenders
-% \today
+---
+title: "Template: Defensive Publication"
+author: "Linux Defenders"
+date: \today
+...
 
 Your defensive publication should give an overview of the
 technical problem and the existing solutions if any, before
